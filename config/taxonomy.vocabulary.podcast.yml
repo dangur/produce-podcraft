@@ -1,9 +1,0 @@
-uuid: b98af26b-e3dc-456f-a372-4119b97ad045
-langcode: en
-status: true
-dependencies: {  }
-name: Podcast
-vid: podcast
-description: ''
-hierarchy: 0
-weight: 0

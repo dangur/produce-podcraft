@@ -1,0 +1,35 @@
+uuid: f5855325-48d3-42be-94e2-262b0522d2be
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.episode.body
+    - field.field.node.episode.field_podcast
+    - node.type.episode
+  module:
+    - text
+    - user
+id: node.episode.default
+targetEntityType: node
+bundle: episode
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_podcast:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

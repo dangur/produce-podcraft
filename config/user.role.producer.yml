@@ -1,0 +1,10 @@
+uuid: 2f27a6af-0fce-46c7-a237-0311f1f04b11
+langcode: en
+status: true
+dependencies: {  }
+id: producer
+label: Producer
+weight: 3
+is_admin: null
+permissions:
+  - 'view files'
